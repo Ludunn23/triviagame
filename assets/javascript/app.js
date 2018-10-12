@@ -21,11 +21,7 @@ $(document).on('click', '#start', function(e) {
 //You'll create a trivia form with multiple choice or true/false options (your choice).
 //Trivia questions
 
-var questions = [{
-  question: "How many National Parks are there currently?",
-  answers: ["60", "67", "58", "74"],
-  correctAnswer: "60"
-}, {
+var questions = [ {
   question: "What was the first National Park",
   answers: ["Yosemite", "Yellowstone", "Sequoia", "Grand Canyon"],
   correctAnswer: "Yellowstone"
